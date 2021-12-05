@@ -1,0 +1,201 @@
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: white;
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+i{
+    color:indianred ;
+}
+body{
+    
+}
+
+
+nav{
+    display: flex;
+    margin-top: 0%;
+    height: 20vh;
+     background-color: mediumaquamarine;
+}
+nav .navlist ul{
+    display: flex;
+    position: absolute;
+    right:2%;
+
+
+}
+.navlist ul li {
+
+    list-style-type: none;
+    display:block;
+    margin: 20px; 
+    padding: 30px;
+}
+.navlist ul li a{
+    text-decoration: none;
+    color: black;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: indianred;
+    margin-top: 0%;
+}
+.second .name{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.project{
+    display: flex;
+    margin-top: 50px;
+}
+.project .projectlist{
+
+}
+.project .projectlist ul{
+    display: flex;
+    justify-content: space-between;
+
+   
+
+}
+.project .projectlist img{
+    height: 200px;
+    width: 350px;
+    padding-top: 20px;
+    border-radius: 0px 80px 0px 80px;
+    background-color: white;
+
+}
+h2{
+    color: indianred;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+}
+.project .projectlist ul a{
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+.project .projectlist ul li p{
+    padding-left: 10px;
+}
+.project .projectlist ul li{
+    list-style: none;
+    text-align: center;
+    background-color: mediumaquamarine;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 2px 3px 4px 5px mediumaquamarine;
+    height: 420px;
+    width: 350px;
+    margin: 20px;
+    justify-content: space-between
+    
+    
+
+}
+h6{
+    font-size: 40px;
+    color: mediumaquamarine;
+}
+p1{
+    font-size: 20px;
+}
+span{
+    color:mediumaquamarine ;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color: indianred;
+}
+.about .aboutlist ul li{
+    list-style: none;
+    text-align: center;
+    background-color: mediumaquamarine;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    justify-content: space-between;
+    transform: translate(0.6s);
+}
+.about .aboutlist ul li:hover{
+    translate: scale(1.2);
+}
+.about .aboutlist ul{
+    display: flex;
+}
+.about .aboutlist ul li p{
+    text-align: center;
+}
+h4{
+    color: indianred;
+}
+.skills{
+background-color: mediumaquamarine;
+margin-left: 55px;
+
+}
+.skills ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+.skills p{
+    text-align: center;
+    
+}
+#skils{
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.subscribe form input{
+    height: 30px;
+    width: 200px;
+}
+.subscribe form button{
+    height: 30px;
+    width: 210px;
+    background-color: indianred;
+    border-color: indianred;
+
+}
+.name ul li{
+    font-size: 20px;
+    background-color: indianred;
+    height: 200px;
+    width: 400px;
+    box-shadow: 2px 3px 4px 5px mediumaquamarine;
+    list-style: none;
+    padding: 30px;
+    padding-top: 100px;
+}.subscribe{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 30px;
+}
+.contact{
+    list-style: none;
+}
+.subscribe ul li{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: indianred;
+    height: 100px;
+    padding-top: 10px;
+}
